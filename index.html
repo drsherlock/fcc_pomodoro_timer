@@ -1,0 +1,58 @@
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Itim' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div id="title">My Pomodoro Timer</div>
+    <div id="time">
+      <span>Work Timer</span>
+      <span id="work_minutes">00</span> :
+      <span id="work_seconds">00</span>
+      </br>
+      <span>Break Timer</span>
+      <span id="break_minutes">00</span> :
+      <span id="break_seconds">00</span>
+
+
+    </div>
+
+    <div id="select">
+      <p class="selectTime">Select Work Time(minutes)</p>
+      <label class="radio-inline">
+        <input type="radio" name="work_time" value="10">10</label>
+      <label class="radio-inline">
+        <input type="radio" name="work_time" value="20">20</label>
+      <label class="radio-inline">
+        <input type="radio" name="work_time" value="30">30</label>
+      <label class="radio-inline">
+        <input type="radio" name="work_time" value="40">40</label>
+      <label class="radio-inline">
+        <input type="radio" name="work_time" value="50">50</label>
+      <label class="radio-inline">
+        <input type="radio" name="work_time" value="60">60</label>
+
+      <p class="selectTime">Select Break Time(minutes)</p>
+      <label class="radio-inline">
+        <input type="radio" name="break_time" value="5">05</label>
+      <label class="radio-inline">
+        <input type="radio" name="break_time" value="10">10</label>
+      <label class="radio-inline">
+        <input type="radio" name="break_time" value="15">15</label>
+      <label class="radio-inline">
+        <input type="radio" name="break_time" value="20">20</label>
+      <label class="radio-inline">
+        <input type="radio" name="break_time" value="25">25</label>
+      <label class="radio-inline">
+        <input type="radio" name="break_time" value="30">30</label>
+    </div>
+
+    <div id="controls">
+      <button id="start_pause_resume" class="btn">Start</button>
+      <button id="reset" class="btn">Reset</button>
+    </div>
+
+    <div id="status"></div>
+    <div id="progressbar"></div>
+    </div>
+</body>
