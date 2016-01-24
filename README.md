@@ -3,4 +3,4 @@ This a pomodoro timer. A pomodoro timer is a time management tool which breaks d
 The users can select the work interval and break interval according to their needs. A timer will go off to alert the user. Users can pause or reset timer as well.<br>
 The apps works in the browser using frontend technologies only. The designing is done using CSS and the functionality is provided using jQuery.
 
-<h2>App Link: <a href="http://codepen.io/drsherlock/full/bVBgqK/">Pomodoro Timer</a></h2>
+<h2>App Link: <a href="http://codepen.io/drsherlock/full/bVBgqK/" target="_blank">Pomodoro Timer</a></h2>
